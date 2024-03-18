@@ -1,0 +1,28 @@
+<h1 id="demo">Pick a colour</h1>
+
+
+<button onclick="toggle()">toggle</button>
+
+
+
+<script>
+
+    var hidden = false;
+
+var output = document.getElementById("demo")
+function toggle(){
+    if (hidden){
+        output.style.display = "block"
+        hidden = false;
+    }
+    else {
+        output.style.display = "none"
+        hidden = true;
+    }
+}
+
+</script>
+
+
+
+
